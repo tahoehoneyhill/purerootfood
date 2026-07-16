@@ -18,7 +18,7 @@ PureRootFood is an iOS app that helps you understand the ingredients in packaged
 
 ## Pricing
 
-PureRootFood is free to use. PureRootFood Premium is an optional $4.99/year subscription that supports independent development and keeps the app ad-free.
+PureRootFood is completely free — no subscriptions, no in-app purchases, and no ads.
 
 ## Support
 

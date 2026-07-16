@@ -24,12 +24,9 @@ PureRootFood is an educational tool that helps you understand what's in packaged
 - We do not control external websites linked from the app (LocalHarvest, USDA, etc.) and are not responsible for their content, accuracy, or availability
 - We do not guarantee that any specific product, farm, or shipper meets your personal dietary, ethical, or health standards
 
-## Subscription terms
+## Pricing
 
-- PureRootFood is free to use. PureRootFood Premium is an optional auto-renewing subscription at $4.99 USD per year (price may vary by region)
-- Subscriptions auto-renew yearly unless cancelled at least 24 hours before the end of the current period
-- Cancel anytime: iPhone → Settings → Apple ID → Subscriptions
-- Refunds are handled by Apple per Apple's refund policies, not by PureRootFood
+- PureRootFood is completely free to use. There are no in-app purchases, subscriptions, or ads.
 
 ## Acceptable use
 
