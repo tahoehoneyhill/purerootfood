@@ -1,0 +1,1217 @@
+{
+  "contaminantRules" : [
+    {
+      "carcinogen" : "probable",
+      "detail" : "Conventional wheat, oats, barley, and rye are routinely sprayed with glyphosate (Roundup) as a pre-harvest drying agent. USDA and independent testing detects glyphosate residue in the majority of conventional grain products.",
+      "organicExempt" : true,
+      "risk" : "caution",
+      "title" : "Glyphosate residue likely",
+      "triggerPatterns" : [
+        "wheat",
+        "oats",
+        "oat flour",
+        "rolled oats",
+        "barley",
+        "rye",
+        "spelt"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Conventional US corn is the single largest use of atrazine (an EU-banned endocrine disruptor) and glyphosate. Residues are routinely detected in corn-derived ingredients.",
+      "organicExempt" : true,
+      "risk" : "caution",
+      "title" : "Atrazine & glyphosate residue likely",
+      "triggerPatterns" : [
+        "corn",
+        "cornstarch",
+        "corn starch",
+        "corn flour",
+        "cornmeal",
+        "corn meal",
+        "corn syrup",
+        "corn oil"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Over 90% of US soybeans are genetically modified for glyphosate tolerance (Roundup Ready) and increasingly 2,4-D. Residues are common in conventional soy-derived ingredients.",
+      "organicExempt" : true,
+      "risk" : "caution",
+      "title" : "Glyphosate & 2,4-D residue likely",
+      "triggerPatterns" : [
+        "soy",
+        "soybean",
+        "soya",
+        "soy protein",
+        "soy flour"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Conventional canola is genetically modified for glyphosate tolerance and is also typically chemically extracted with hexane.",
+      "organicExempt" : true,
+      "risk" : "caution",
+      "title" : "Glyphosate residue likely",
+      "triggerPatterns" : [
+        "canola",
+        "rapeseed"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Roughly half of US sugar comes from genetically modified sugar beets sprayed with glyphosate.",
+      "organicExempt" : true,
+      "risk" : "caution",
+      "title" : "Glyphosate residue possible (sugar beet)",
+      "triggerPatterns" : [
+        "beet sugar",
+        "sugar beet"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Conventional cotton is GMO for glyphosate and dicamba tolerance, and is regulated as a non-food crop — meaning pesticide tolerances are higher than for food crops.",
+      "organicExempt" : true,
+      "risk" : "avoid",
+      "title" : "Glyphosate & dicamba residue likely",
+      "triggerPatterns" : [
+        "cottonseed",
+        "cotton seed"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Microwave popcorn bags are commonly lined with PFAS forever chemicals to resist grease. PFAS migrates into the food during heating.",
+      "organicExempt" : false,
+      "risk" : "avoid",
+      "title" : "PFAS exposure likely (packaging)",
+      "triggerPatterns" : [
+        "microwave popcorn",
+        "popcorn bag"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Non-stick and fluoropolymer surfaces are part of the PFAS family. They shed microparticles into food and release toxic fumes when overheated.",
+      "organicExempt" : false,
+      "risk" : "avoid",
+      "title" : "PFAS / PTFE exposure",
+      "triggerPatterns" : [
+        "non-stick",
+        "nonstick",
+        "teflon",
+        "fluoropolymer",
+        "fluorinated"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Grease-resistant wrappers, pizza boxes, bakery liners, and microwave-ready coated papers frequently contain PFAS coatings that migrate into food during storage and heating.",
+      "organicExempt" : false,
+      "risk" : "avoid",
+      "title" : "PFAS-coated packaging possible",
+      "triggerPatterns" : [
+        "grease-resistant",
+        "grease resistant",
+        "wax-coated",
+        "wax coated",
+        "pizza box",
+        "bakery bag",
+        "bakery liner",
+        "coated paper",
+        "microwavable",
+        "microwaveable"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Fast-food wrappers, sandwich and burger papers, fry boxes, and clamshell containers are frequently treated with PFAS forever chemicals for grease resistance. FDA testing has repeatedly detected PFAS migration into food from these materials.",
+      "organicExempt" : false,
+      "risk" : "avoid",
+      "title" : "PFAS exposure likely (fast-food packaging)",
+      "triggerPatterns" : [
+        "fast food",
+        "fast-food",
+        "take-out",
+        "takeout",
+        "to-go container",
+        "sandwich wrapper",
+        "burger wrapper",
+        "fry box",
+        "clamshell container"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Molded-fiber \"compostable\" bowls and takeout containers were long treated with PFAS for grease and moisture resistance. Independent testing has found high fluorine levels in many of these products.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "PFAS exposure possible (compostable fiber packaging)",
+      "triggerPatterns" : [
+        "molded fiber",
+        "moulded fiber",
+        "compostable bowl",
+        "compostable container",
+        "fiber bowl",
+        "bagasse"
+      ]
+    },
+    {
+      "carcinogen" : "possible",
+      "detail" : "PFAS forever chemicals bioaccumulate in fish and shellfish from contaminated water. Freshwater fish in particular carry some of the highest PFAS levels measured in any food; the EPA and FDA monitor PFAS in seafood. PFOS, a common PFAS in fish, is an IARC Group 2B possible human carcinogen.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "PFAS accumulation possible (seafood)",
+      "triggerPatterns" : [
+        "fish",
+        "seafood",
+        "shellfish",
+        "shrimp",
+        "crab",
+        "salmon",
+        "cod",
+        "tilapia"
+      ]
+    },
+    {
+      "carcinogen" : "possible",
+      "detail" : "PFAS are widespread drinking-water contaminants. Independent testing has detected PFAS in a number of bottled and spring waters, and the EPA has set enforceable limits for PFAS in drinking water.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "PFAS possible (bottled water)",
+      "triggerPatterns" : [
+        "spring water",
+        "bottled water",
+        "sparkling water",
+        "mineral water"
+      ]
+    },
+    {
+      "carcinogen" : "possible",
+      "detail" : "Leafy greens take up PFAS from soil and irrigation water — especially near contaminated sites or where sewage-sludge \"biosolids\" were applied as fertilizer. Leafy vegetables show higher PFAS uptake than most other produce.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "PFAS uptake possible (leafy greens)",
+      "triggerPatterns" : [
+        "leafy greens",
+        "spinach",
+        "kale",
+        "lettuce",
+        "collard greens",
+        "swiss chard"
+      ]
+    },
+    {
+      "carcinogen" : "known",
+      "detail" : "Rice takes up inorganic arsenic — an IARC Group 1 known human carcinogen — from soil and water far more than other grains. The FDA specifically tracks arsenic in rice and infant rice cereal under its \"Closer to Zero\" program.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Inorganic arsenic likely (rice)",
+      "triggerPatterns" : [
+        "rice",
+        "rice flour",
+        "brown rice syrup",
+        "rice syrup",
+        "rice cereal",
+        "rice protein"
+      ]
+    },
+    {
+      "carcinogen" : "known",
+      "detail" : "Independent testing (Consumer Reports, As You Sow) repeatedly finds lead and cadmium in cocoa and dark chocolate. Cadmium is an IARC Group 1 known human carcinogen; lead is a cumulative neurotoxin with no safe level for children.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Lead & cadmium likely (cocoa)",
+      "triggerPatterns" : [
+        "cocoa",
+        "cacao",
+        "dark chocolate",
+        "chocolate liquor",
+        "cocoa solids"
+      ]
+    },
+    {
+      "carcinogen" : "possible",
+      "detail" : "Large predatory fish accumulate methylmercury, a potent neurotoxin the FDA and EPA advise children and pregnant women to limit. Methylmercury is classified by IARC as Group 2B (possibly carcinogenic to humans).",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Methylmercury likely (predatory fish)",
+      "triggerPatterns" : [
+        "tuna",
+        "swordfish",
+        "shark",
+        "king mackerel",
+        "tilefish",
+        "marlin",
+        "bigeye"
+      ]
+    },
+    {
+      "carcinogen" : "none",
+      "detail" : "The FDA has issued repeated recalls for lead-contaminated cinnamon and other ground spices, some intentionally adulterated to boost weight and color. Lead is a cumulative neurotoxin with no safe level for children.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Lead contamination possible (spices)",
+      "triggerPatterns" : [
+        "cinnamon",
+        "turmeric",
+        "curry powder",
+        "ground spice"
+      ]
+    },
+    {
+      "carcinogen" : "possible",
+      "detail" : "The FDA sets action levels for inorganic arsenic and lead in apple and grape juice after repeated detections. Inorganic arsenic is an IARC Group 1 known human carcinogen.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Arsenic & lead possible (fruit juice)",
+      "triggerPatterns" : [
+        "apple juice",
+        "grape juice",
+        "white grape juice",
+        "fruit juice concentrate"
+      ]
+    },
+    {
+      "carcinogen" : "none",
+      "detail" : "Clean Label Project and Consumer Reports testing has found lead, cadmium, and arsenic in many protein powders — especially plant-based ones, which concentrate metals from their crops.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Heavy metals possible (protein powder)",
+      "triggerPatterns" : [
+        "protein powder",
+        "protein isolate",
+        "pea protein",
+        "whey protein",
+        "rice protein powder",
+        "collagen peptides"
+      ]
+    },
+    {
+      "carcinogen" : "probable",
+      "detail" : "Acrylamide forms when starchy foods are fried, baked, or roasted at high temperatures. It is classified by IARC as a Group 2A probable human carcinogen, and the FDA publishes guidance for reducing it.",
+      "organicExempt" : false,
+      "risk" : "caution",
+      "title" : "Acrylamide likely (high-heat starch)",
+      "triggerPatterns" : [
+        "potato chips",
+        "french fries",
+        "fried potato",
+        "crackers",
+        "roasted coffee",
+        "instant coffee"
+      ]
+    }
+  ],
+  "ingredientCitations" : {
+    "2,4-D" : {
+      "label" : "EPA — 2,4-D",
+      "url" : "https://www.epa.gov/ingredients-used-pesticide-products/24-d"
+    },
+    "Acesulfame Potassium" : {
+      "label" : "FDA — High-Intensity Sweeteners",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+    },
+    "Aspartame" : {
+      "label" : "WHO — Aspartame Hazard Assessment (2023)",
+      "url" : "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released"
+    },
+    "Atrazine" : {
+      "label" : "EPA — Atrazine",
+      "url" : "https://www.epa.gov/ingredients-used-pesticide-products/atrazine"
+    },
+    "BHA" : {
+      "label" : "NTP Report on Carcinogens",
+      "url" : "https://ntp.niehs.nih.gov/whatwestudy/assessments/cancer/roc"
+    },
+    "BHT" : {
+      "label" : "NIH PubChem — BHT",
+      "url" : "https://pubchem.ncbi.nlm.nih.gov/compound/31404"
+    },
+    "Blue 1" : {
+      "label" : "California OEHHA — Synthetic Food Dyes Assessment",
+      "url" : "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food-dyes"
+    },
+    "Caramel Color" : {
+      "label" : "FDA — 4-MEI Q&A",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/questions-answers-about-4-mei"
+    },
+    "Chlorpyrifos" : {
+      "label" : "EPA — Chlorpyrifos",
+      "url" : "https://www.epa.gov/ingredients-used-pesticide-products/chlorpyrifos"
+    },
+    "DDT" : {
+      "label" : "CDC / ATSDR — DDT ToxFAQs",
+      "url" : "https://wwwn.cdc.gov/TSP/substances/ToxSubstance.aspx?toxid=20"
+    },
+    "Dicamba" : {
+      "label" : "EPA — Dicamba",
+      "url" : "https://www.epa.gov/ingredients-used-pesticide-products/dicamba"
+    },
+    "GenX" : {
+      "label" : "EPA — GenX Toxicity Assessment",
+      "url" : "https://www.epa.gov/chemical-research/human-health-toxicity-assessments-genx-chemicals"
+    },
+    "Glyphosate" : {
+      "label" : "IARC — Glyphosate (Group 2A)",
+      "url" : "https://www.iarc.who.int/featured-news/media-centre-iarc-news-glyphosate/"
+    },
+    "High Fructose Corn Syrup" : {
+      "label" : "FDA — High Fructose Corn Syrup Q&A",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/high-fructose-corn-syrup-questions-and-answers"
+    },
+    "MSG" : {
+      "label" : "FDA — MSG Q&A",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg"
+    },
+    "Malathion" : {
+      "label" : "EPA — Malathion",
+      "url" : "https://www.epa.gov/mosquitocontrol/malathion"
+    },
+    "Mono and Diglycerides" : {
+      "label" : "FDA — Trans Fat",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/trans-fat"
+    },
+    "Neonicotinoids" : {
+      "label" : "EPA — Neonicotinoid Review",
+      "url" : "https://www.epa.gov/pollinator-protection/schedule-review-neonicotinoid-pesticides"
+    },
+    "PFAS" : {
+      "label" : "CDC / ATSDR — PFAS Health Effects",
+      "url" : "https://www.atsdr.cdc.gov/pfas/index.html"
+    },
+    "PFOA" : {
+      "label" : "IARC — PFOA/PFOS Carcinogenicity Evaluation",
+      "url" : "https://www.iarc.who.int/news-events/iarc-monographs-evaluate-the-carcinogenicity-of-perfluorooctanoic-acid-pfoa-and-perfluorooctanesulfonic-acid-pfos/"
+    },
+    "PFOS" : {
+      "label" : "IARC — PFOA/PFOS Carcinogenicity Evaluation",
+      "url" : "https://www.iarc.who.int/news-events/iarc-monographs-evaluate-the-carcinogenicity-of-perfluorooctanoic-acid-pfoa-and-perfluorooctanesulfonic-acid-pfos/"
+    },
+    "PTFE" : {
+      "label" : "CDC / ATSDR — PFAS Health Effects",
+      "url" : "https://www.atsdr.cdc.gov/pfas/index.html"
+    },
+    "Paraquat" : {
+      "label" : "EPA — Paraquat Dichloride",
+      "url" : "https://www.epa.gov/ingredients-used-pesticide-products/paraquat-dichloride"
+    },
+    "Partially Hydrogenated Oil" : {
+      "label" : "FDA — Trans Fat",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/trans-fat"
+    },
+    "Red 40" : {
+      "label" : "California OEHHA — Synthetic Food Dyes Assessment",
+      "url" : "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food-dyes"
+    },
+    "Sodium Benzoate" : {
+      "label" : "FDA — Benzene in Beverages Q&A",
+      "url" : "https://www.fda.gov/food/chemical-contaminants-food/questions-and-answers-occurrence-benzene-soft-drinks-and-other-beverages"
+    },
+    "Sodium Nitrite" : {
+      "label" : "WHO — Processed Meat & Cancer Q&A",
+      "url" : "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat"
+    },
+    "Sucralose" : {
+      "label" : "FDA — High-Intensity Sweeteners",
+      "url" : "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+    },
+    "TBHQ" : {
+      "label" : "NIH PubChem — TBHQ",
+      "url" : "https://pubchem.ncbi.nlm.nih.gov/compound/16043"
+    },
+    "Titanium Dioxide" : {
+      "label" : "EFSA — Titanium Dioxide (E171) Ruling",
+      "url" : "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive"
+    },
+    "Yellow 5" : {
+      "label" : "California OEHHA — Synthetic Food Dyes Assessment",
+      "url" : "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food-dyes"
+    },
+    "Yellow 6" : {
+      "label" : "California OEHHA — Synthetic Food Dyes Assessment",
+      "url" : "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food-dyes"
+    }
+  },
+  "ingredients" : [
+    {
+      "aliases" : [
+        "hfcs",
+        "high-fructose corn syrup"
+      ],
+      "alternative" : "Organic cane sugar, maple syrup, raw honey, or dates.",
+      "canonicalName" : "High Fructose Corn Syrup",
+      "carcinogen" : "none",
+      "concern" : "Linked to obesity, fatty liver disease, insulin resistance, and metabolic syndrome.",
+      "purpose" : "Cheap sweetener that extends shelf life and adds bulk.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "partially hydrogenated",
+        "trans fat"
+      ],
+      "alternative" : "Cold-pressed olive oil, avocado oil, or grass-fed butter.",
+      "canonicalName" : "Partially Hydrogenated Oil",
+      "carcinogen" : "none",
+      "concern" : "Trans fats — directly linked to heart disease. Banned by the FDA in 2018 but still appears in some products.",
+      "purpose" : "Improves texture and extends shelf life.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "butylated hydroxyanisole"
+      ],
+      "alternative" : "Vitamin E (tocopherols) or rosemary extract.",
+      "canonicalName" : "BHA",
+      "carcinogen" : "possible",
+      "concern" : "Listed by the National Toxicology Program as 'reasonably anticipated to be a human carcinogen.'",
+      "purpose" : "Synthetic preservative that prevents fats from going rancid.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "butylated hydroxytoluene"
+      ],
+      "alternative" : "Vitamin E or rosemary extract.",
+      "canonicalName" : "BHT",
+      "carcinogen" : "possible",
+      "concern" : "Possible endocrine disruptor and tumor promoter in animal studies.",
+      "purpose" : "Synthetic preservative similar to BHA.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "tertiary butylhydroquinone"
+      ],
+      "alternative" : "Natural antioxidants like vitamin E.",
+      "canonicalName" : "TBHQ",
+      "carcinogen" : "none",
+      "concern" : "Linked to immune system dysfunction and behavioral effects in studies.",
+      "purpose" : "Synthetic preservative used in processed foods and frying oils.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "sodium nitrate"
+      ],
+      "alternative" : "Uncured meats preserved with celery powder and sea salt.",
+      "canonicalName" : "Sodium Nitrite",
+      "carcinogen" : "known",
+      "concern" : "Forms nitrosamines when heated — Group 1 IARC carcinogen when used in processed meats.",
+      "purpose" : "Preserves color and prevents botulism in cured meats.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "red dye 40",
+        "allura red"
+      ],
+      "alternative" : "Beet juice, paprika extract, or annatto.",
+      "canonicalName" : "Red 40",
+      "carcinogen" : "none",
+      "concern" : "Linked to hyperactivity in children. Banned or warning-labeled in much of Europe.",
+      "purpose" : "Petroleum-derived artificial coloring.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "yellow dye 5",
+        "tartrazine"
+      ],
+      "alternative" : "Turmeric or annatto.",
+      "canonicalName" : "Yellow 5",
+      "carcinogen" : "none",
+      "concern" : "Allergen and hyperactivity trigger. Requires warning labels in the EU.",
+      "purpose" : "Petroleum-derived artificial coloring.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "yellow dye 6",
+        "sunset yellow"
+      ],
+      "alternative" : "Turmeric, saffron, or annatto.",
+      "canonicalName" : "Yellow 6",
+      "carcinogen" : "none",
+      "concern" : "May contain carcinogenic contaminants. Hyperactivity link in children.",
+      "purpose" : "Petroleum-derived artificial coloring.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "blue dye 1",
+        "brilliant blue"
+      ],
+      "alternative" : "Spirulina extract or red cabbage.",
+      "canonicalName" : "Blue 1",
+      "carcinogen" : "none",
+      "concern" : "Petroleum-based dye, hyperactivity concerns in children.",
+      "purpose" : "Artificial blue coloring.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Avoid products that need to look unnaturally white.",
+      "canonicalName" : "Titanium Dioxide",
+      "carcinogen" : "possible",
+      "concern" : "Banned in the EU in 2022 over DNA damage concerns. Still allowed in US foods.",
+      "purpose" : "Whitens and brightens candies, dairy, and powdered foods.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "perfluorooctanoic acid",
+        "perfluorooctanoate",
+        "c8"
+      ],
+      "alternative" : "Glass, stainless steel, or uncoated paper packaging.",
+      "canonicalName" : "PFOA",
+      "carcinogen" : "known",
+      "concern" : "Forever chemical that bioaccumulates and never breaks down. IARC reclassified PFOA as a Group 1 known human carcinogen in 2024. Linked to kidney and testicular cancer, thyroid disease, and immune suppression.",
+      "purpose" : "Historically used to make non-stick coatings, grease-resistant food wrappers, and stain-proof packaging.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "perfluorooctane sulfonate",
+        "perfluorooctanesulfonic acid"
+      ],
+      "alternative" : "PFAS-free packaging and cookware.",
+      "canonicalName" : "PFOS",
+      "carcinogen" : "possible",
+      "concern" : "Forever chemical classified by IARC as a possible human carcinogen (Group 2B). Persists in the body and the environment for decades.",
+      "purpose" : "Used in stain repellents, food packaging coatings, and firefighting foam.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "perfluoroalkyl",
+        "polyfluoroalkyl",
+        "per- and polyfluoroalkyl",
+        "forever chemical",
+        "forever chemicals"
+      ],
+      "alternative" : "Unwrapped or paper-wrapped foods from sources that explicitly state PFAS-free packaging.",
+      "canonicalName" : "PFAS",
+      "carcinogen" : "probable",
+      "concern" : "Umbrella term for thousands of synthetic 'forever chemicals' that do not break down in the body or environment. Linked to cancer, immune dysfunction, hormone disruption, and developmental harm.",
+      "purpose" : "Grease- and water-resistant coatings on fast-food wrappers, microwave popcorn bags, takeout containers, and pizza boxes.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "polytetrafluoroethylene",
+        "teflon",
+        "fluoropolymer",
+        "fluoropolymers"
+      ],
+      "alternative" : "Cast iron, stainless steel, carbon steel, or ceramic-coated cookware.",
+      "canonicalName" : "PTFE",
+      "carcinogen" : "none",
+      "concern" : "Synthetic fluoropolymer in the PFAS family. Can shed microparticles into food and releases toxic fumes when overheated. Manufactured using other PFAS.",
+      "purpose" : "Non-stick cookware coatings and processing equipment surfaces.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "hfpo-da",
+        "hexafluoropropylene oxide dimer acid"
+      ],
+      "alternative" : "Avoid products with fluorinated or 'non-stick' food contact materials.",
+      "canonicalName" : "GenX",
+      "carcinogen" : "none",
+      "concern" : "Replacement chemical for PFOA that has been shown in EPA studies to cause similar liver, kidney, and immune-system damage. Still a forever chemical.",
+      "purpose" : "Newer generation PFAS used in food contact materials.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "roundup",
+        "glyphosate residue"
+      ],
+      "alternative" : "Certified organic or 'Glyphosate Residue Free' verified products.",
+      "canonicalName" : "Glyphosate",
+      "carcinogen" : "probable",
+      "concern" : "World's most widely used herbicide. Classified by IARC as a Group 2A probable human carcinogen. Routinely detected as a residue on conventional wheat, oats, soy, and corn products. Endocrine disruptor and gut-microbiome disruptor.",
+      "purpose" : "Broad-spectrum weed killer and pre-harvest desiccant on grains.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Certified organic corn and grain products.",
+      "canonicalName" : "Atrazine",
+      "carcinogen" : "none",
+      "concern" : "Endocrine disruptor banned in the European Union since 2004. Linked to birth defects, hormone disruption, and reproductive harm. Heavily applied to US corn — frequent groundwater contaminant.",
+      "purpose" : "Herbicide used on conventional corn, sorghum, and sugarcane.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "2,4-dichlorophenoxyacetic acid",
+        "2 4-d"
+      ],
+      "alternative" : "Certified organic grain and meat products.",
+      "canonicalName" : "2,4-D",
+      "carcinogen" : "possible",
+      "concern" : "IARC Group 2B (possibly carcinogenic to humans). A component of Agent Orange. Linked to non-Hodgkin lymphoma in agricultural worker studies.",
+      "purpose" : "Broadleaf herbicide used on conventional grains, lawns, and pastures.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Certified organic or non-GMO verified products.",
+      "canonicalName" : "Dicamba",
+      "carcinogen" : "none",
+      "concern" : "Volatile herbicide notorious for drift damage to neighboring farms. Suspected endocrine and developmental toxicant.",
+      "purpose" : "Broadleaf herbicide paired with genetically modified soy and cotton.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Certified organic produce, especially for children's foods.",
+      "canonicalName" : "Chlorpyrifos",
+      "carcinogen" : "none",
+      "concern" : "Organophosphate insecticide linked to lower IQ, ADHD, and developmental delays in children. Banned for food use in the US in 2021, but residues persist on imported produce.",
+      "purpose" : "Insecticide on conventional fruits, vegetables, and nuts.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "paraquat dichloride"
+      ],
+      "alternative" : "Certified organic products.",
+      "canonicalName" : "Paraquat",
+      "carcinogen" : "none",
+      "concern" : "One of the most acutely toxic herbicides in use. Strong epidemiological link to Parkinson's disease. Banned in the EU and over 30 other countries; still used in the US.",
+      "purpose" : "Herbicide on conventional soy, corn, cotton, and orchard crops.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Certified organic produce and grains.",
+      "canonicalName" : "Malathion",
+      "carcinogen" : "probable",
+      "concern" : "IARC Group 2A probable human carcinogen. Organophosphate that interferes with the nervous system.",
+      "purpose" : "Insecticide on conventional grain, fruit, and vegetable crops.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "neonicotinoid",
+        "imidacloprid",
+        "clothianidin",
+        "thiamethoxam"
+      ],
+      "alternative" : "Certified organic produce.",
+      "canonicalName" : "Neonicotinoids",
+      "carcinogen" : "none",
+      "concern" : "Systemic insecticides absorbed into the entire plant — cannot be washed off. Drivers of pollinator collapse. Detected in conventional baby foods and produce.",
+      "purpose" : "Seed treatments and sprays on conventional fruits, vegetables, and grains.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+        "dichlorodiphenyltrichloroethane",
+        "ddt residue"
+      ],
+      "alternative" : "Lower-fat or plant-based protein sources from clean watersheds.",
+      "canonicalName" : "DDT",
+      "carcinogen" : "probable",
+      "concern" : "IARC Group 2A probable human carcinogen. Banned for US agricultural use in 1972 but still detected in fatty fish, dairy, and meat due to bioaccumulation in soil and water.",
+      "purpose" : "Legacy organochlorine insecticide.",
+      "risk" : "avoid"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Stevia, monk fruit, or raw honey in moderation.",
+      "canonicalName" : "Aspartame",
+      "carcinogen" : "possible",
+      "concern" : "Classified as 'possibly carcinogenic to humans' by the WHO in 2023.",
+      "purpose" : "Artificial sweetener.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "splenda"
+      ],
+      "alternative" : "Stevia or monk fruit.",
+      "canonicalName" : "Sucralose",
+      "carcinogen" : "none",
+      "concern" : "May disrupt gut microbiome and produce harmful compounds when heated.",
+      "purpose" : "Zero-calorie artificial sweetener.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "acesulfame k",
+        "ace-k"
+      ],
+      "alternative" : "Stevia or monk fruit.",
+      "canonicalName" : "Acesulfame Potassium",
+      "carcinogen" : "none",
+      "concern" : "Animal studies suggest possible carcinogenicity; long-term human data is limited.",
+      "purpose" : "Artificial sweetener, often blended with others.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "monosodium glutamate"
+      ],
+      "alternative" : "Mushrooms, tomatoes, parmesan, or sea salt for umami.",
+      "canonicalName" : "MSG",
+      "carcinogen" : "none",
+      "concern" : "Triggers headaches and other symptoms in sensitive individuals.",
+      "purpose" : "Flavor enhancer.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Agar, guar gum, or no thickener at all.",
+      "canonicalName" : "Carrageenan",
+      "carcinogen" : "none",
+      "concern" : "Linked to gut inflammation. Degraded form is a known carcinogen.",
+      "purpose" : "Thickener and stabilizer derived from seaweed.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Glycerin from natural sources.",
+      "canonicalName" : "Propylene Glycol",
+      "carcinogen" : "none",
+      "concern" : "Industrial solvent also used in antifreeze. Generally safe but a known irritant.",
+      "purpose" : "Moisture retainer and texture aid.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Citric acid or refrigeration.",
+      "canonicalName" : "Sodium Benzoate",
+      "carcinogen" : "none",
+      "concern" : "Forms benzene (a carcinogen) when combined with vitamin C.",
+      "purpose" : "Preservative.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Sunflower lecithin or no emulsifier.",
+      "canonicalName" : "Polysorbate 80",
+      "carcinogen" : "none",
+      "concern" : "May alter gut microbiome and contribute to inflammation.",
+      "purpose" : "Emulsifier.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "monoglycerides",
+        "diglycerides"
+      ],
+      "alternative" : "Sunflower lecithin or natural egg yolk emulsion.",
+      "canonicalName" : "Mono and Diglycerides",
+      "carcinogen" : "none",
+      "concern" : "Often contain hidden trans fats; not subject to trans fat labeling rules.",
+      "purpose" : "Emulsifier in baked goods.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "caramel coloring"
+      ],
+      "alternative" : "Real caramelized sugar or molasses.",
+      "canonicalName" : "Caramel Color",
+      "carcinogen" : "possible",
+      "concern" : "Class III and IV varieties contain 4-MEI, a possible carcinogen.",
+      "purpose" : "Brown coloring agent.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "natural flavoring"
+      ],
+      "alternative" : "Whole spices, herbs, and real ingredients.",
+      "canonicalName" : "Natural Flavors",
+      "carcinogen" : "none",
+      "concern" : "Vague catch-all — can hide dozens of undisclosed chemicals and solvents.",
+      "purpose" : "Proprietary flavor blend.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "artificial flavoring"
+      ],
+      "alternative" : "Real whole-food ingredients.",
+      "canonicalName" : "Artificial Flavors",
+      "carcinogen" : "none",
+      "concern" : "Synthetic blends with undisclosed components.",
+      "purpose" : "Lab-created flavor profile.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Olive oil, avocado oil, or coconut oil.",
+      "canonicalName" : "Soybean Oil",
+      "carcinogen" : "none",
+      "concern" : "Highly processed seed oil; linked to inflammation when consumed in excess.",
+      "purpose" : "Cheap industrial cooking oil.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+        "rapeseed oil"
+      ],
+      "alternative" : "Cold-pressed olive oil or avocado oil.",
+      "canonicalName" : "Canola Oil",
+      "carcinogen" : "none",
+      "concern" : "Typically GMO and chemically extracted with hexane.",
+      "purpose" : "Industrial cooking oil.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Olive oil, avocado oil, or grass-fed butter.",
+      "canonicalName" : "Corn Oil",
+      "carcinogen" : "none",
+      "concern" : "Highly processed, high in inflammatory omega-6 fats.",
+      "purpose" : "Industrial cooking oil.",
+      "risk" : "caution"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Tapioca starch or no filler.",
+      "canonicalName" : "Maltodextrin",
+      "carcinogen" : "none",
+      "concern" : "Spikes blood sugar more than table sugar; often GMO-derived.",
+      "purpose" : "Filler, thickener, and texture aid.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+        "modified corn starch"
+      ],
+      "alternative" : "Arrowroot or tapioca starch.",
+      "canonicalName" : "Modified Food Starch",
+      "carcinogen" : "none",
+      "concern" : "Often GMO, chemically processed; specific source not always disclosed.",
+      "purpose" : "Thickener and stabilizer.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Sunflower lecithin.",
+      "canonicalName" : "Soy Lecithin",
+      "carcinogen" : "none",
+      "concern" : "Usually derived from GMO soy with chemical solvents.",
+      "purpose" : "Emulsifier.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+        "carboxymethyl cellulose",
+        "cmc"
+      ],
+      "alternative" : "Natural gums or no thickener.",
+      "canonicalName" : "Cellulose Gum",
+      "carcinogen" : "none",
+      "concern" : "Emerging research links it to gut microbiome disruption.",
+      "purpose" : "Thickener and stabilizer.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+        "sodium aluminum phosphate",
+        "monocalcium phosphate"
+      ],
+      "alternative" : "Traditional baking with cream of tartar or yeast.",
+      "canonicalName" : "Sodium Phosphate",
+      "carcinogen" : "none",
+      "concern" : "Phosphate additives linked to kidney and cardiovascular issues with chronic exposure.",
+      "purpose" : "Leavening or emulsifier in baked and processed foods.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Vinegar, salt, or refrigeration.",
+      "canonicalName" : "Potassium Sorbate",
+      "carcinogen" : "none",
+      "concern" : "Generally safe but can cause sensitivity reactions in some people.",
+      "purpose" : "Mold and yeast inhibitor preservative.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Fresh baked goods or sourdough fermentation.",
+      "canonicalName" : "Calcium Propionate",
+      "carcinogen" : "none",
+      "concern" : "Linked to behavioral changes in sensitive children in some studies.",
+      "purpose" : "Mold inhibitor in baked goods.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+        "enriched flour",
+        "bleached flour"
+      ],
+      "alternative" : "Whole grain, freshly milled, or sprouted flours.",
+      "canonicalName" : "Enriched Wheat Flour",
+      "carcinogen" : "none",
+      "concern" : "Stripped of bran and germ, then synthetically 'enriched' with isolated nutrients.",
+      "purpose" : "Standard processed flour.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+        "cane sugar",
+        "evaporated cane juice"
+      ],
+      "alternative" : "Raw honey, maple syrup, or whole fruit in moderation.",
+      "canonicalName" : "Sugar",
+      "carcinogen" : "none",
+      "concern" : "Excess intake drives chronic disease and metabolic dysfunction.",
+      "purpose" : "Sweetener.",
+      "risk" : "moderate"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Often unnecessary in scratch cooking.",
+      "canonicalName" : "Xanthan Gum",
+      "carcinogen" : "none",
+      "concern" : "Generally well tolerated; can cause digestive upset in large amounts.",
+      "purpose" : "Thickener and stabilizer.",
+      "risk" : "safe"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Guar Gum",
+      "carcinogen" : "none",
+      "concern" : "Plant-based and generally well tolerated.",
+      "purpose" : "Thickener.",
+      "risk" : "safe"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "alternative" : "Lemon juice.",
+      "canonicalName" : "Citric Acid",
+      "carcinogen" : "none",
+      "concern" : "Generally safe, though often produced via industrial mold fermentation.",
+      "purpose" : "Preservative and acidifier.",
+      "risk" : "safe"
+    },
+    {
+      "aliases" : [
+        "vitamin c"
+      ],
+      "alternative" : "Whole-food vitamin C sources.",
+      "canonicalName" : "Ascorbic Acid",
+      "carcinogen" : "none",
+      "concern" : "Synthetic vitamin C, generally safe.",
+      "purpose" : "Preservative and antioxidant.",
+      "risk" : "safe"
+    },
+    {
+      "aliases" : [
+        "sea salt",
+        "kosher salt"
+      ],
+      "alternative" : "Mineral-rich sea or Himalayan salt.",
+      "canonicalName" : "Salt",
+      "carcinogen" : "none",
+      "concern" : "Watch sodium totals; quality varies between refined and unrefined.",
+      "purpose" : "Seasoning and preservative.",
+      "risk" : "safe"
+    },
+    {
+      "aliases" : [
+        "sodium bicarbonate"
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Baking Soda",
+      "carcinogen" : "none",
+      "concern" : "Inert mineral, safe in food amounts.",
+      "purpose" : "Leavening agent.",
+      "risk" : "safe"
+    },
+    {
+      "aliases" : [
+        "filtered water"
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Water",
+      "carcinogen" : "none",
+      "concern" : "—",
+      "purpose" : "Base ingredient.",
+      "risk" : "clean"
+    },
+    {
+      "aliases" : [
+        "organic "
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Organic",
+      "carcinogen" : "none",
+      "concern" : "Certified organic ingredients are grown without synthetic pesticides or GMOs.",
+      "purpose" : "Whole-food ingredient.",
+      "risk" : "clean"
+    },
+    {
+      "aliases" : [
+        "extra virgin olive oil"
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Olive Oil",
+      "carcinogen" : "none",
+      "concern" : "Check for genuine cold-pressed; some commercial olive oils are cut with seed oils.",
+      "purpose" : "Healthy fat source.",
+      "risk" : "clean"
+    },
+    {
+      "aliases" : [
+        "raw honey"
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Honey",
+      "carcinogen" : "none",
+      "concern" : "Raw and local is best; ultra-filtered honey loses most of its benefits.",
+      "purpose" : "Natural sweetener.",
+      "risk" : "clean"
+    },
+    {
+      "aliases" : [
+        "pure maple syrup"
+      ],
+      "alternative" : "—",
+      "canonicalName" : "Maple Syrup",
+      "carcinogen" : "none",
+      "concern" : "Choose 'pure' — not pancake syrup, which is HFCS with flavoring.",
+      "purpose" : "Natural sweetener.",
+      "risk" : "clean"
+    }
+  ],
+  "ultraProcessedModerateMarkers" : [
+    "soy lecithin",
+    "lecithin",
+    "natural flavor",
+    "natural flavour",
+    "natural flavors",
+    "xanthan gum",
+    "guar gum",
+    "citric acid",
+    "soy protein",
+    "whey",
+    "dextrin",
+    "emulsifier",
+    "stabilizer",
+    "thickener",
+    "anti-caking"
+  ],
+  "ultraProcessedStrongMarkers" : [
+    "high fructose corn syrup",
+    "hfcs",
+    "corn syrup",
+    "corn syrup solids",
+    "glucose syrup",
+    "glucose-fructose",
+    "fructose syrup",
+    "invert sugar",
+    "invert syrup",
+    "maltodextrin",
+    "modified food starch",
+    "modified corn starch",
+    "modified starch",
+    "partially hydrogenated",
+    "hydrogenated",
+    "interesterified",
+    "protein isolate",
+    "protein concentrate",
+    "protein hydrolysate",
+    "soy protein isolate",
+    "whey protein isolate",
+    "hydrolyzed protein",
+    "hydrolyzed",
+    "artificial flavor",
+    "artificial flavour",
+    "artificial color",
+    "artificial colour",
+    "artificial sweetener",
+    "dextrose",
+    "high-maltose",
+    "aspartame",
+    "sucralose",
+    "acesulfame",
+    "saccharin",
+    "neotame",
+    "red 40",
+    "yellow 5",
+    "yellow 6",
+    "blue 1",
+    "blue 2",
+    "red 3",
+    "green 3",
+    "titanium dioxide",
+    "polysorbate",
+    "carrageenan",
+    "cellulose gum",
+    "carboxymethylcellulose",
+    "carboxymethyl cellulose",
+    "mono and diglycerides",
+    "monoglycerides",
+    "diglycerides",
+    "monosodium glutamate",
+    "msg",
+    "autolyzed yeast",
+    "hydrolyzed vegetable protein",
+    "bha",
+    "bht",
+    "tbhq",
+    "sodium nitrite",
+    "sodium benzoate",
+    "potassium sorbate",
+    "calcium propionate",
+    "caramel color",
+    "maltitol",
+    "sorbitol",
+    "xylitol",
+    "erythritol",
+    "polydextrose"
+  ],
+  "version" : 1
+}
