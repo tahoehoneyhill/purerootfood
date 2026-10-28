@@ -14,8 +14,11 @@ We read every message and typically reply within 2 business days. When you write
 
 ## Frequently asked questions
 
-### Is PureRootFood free?
-Yes — completely. PureRootFood has no subscriptions, no in-app purchases, and no ads. Every feature (ingredient scanner, barcode lookup, local food finder, nationwide shipper directory, and farm directory) is included at no cost.
+### How much does PureRootFood cost?
+PureRootFood starts with a 3-day free trial, then costs $9.99 per year. A subscription includes every feature (ingredient scanner, barcode lookup, local food finder, nationwide shipper directory, and farm directory). There are no ads.
+
+### How do I cancel or restore my subscription?
+To cancel, open your device's Settings, tap your name, then Subscriptions, and choose PureRootFood. To restore a purchase on a new device, open the app and tap Restore Purchases on the subscription screen.
 
 ### How do I scan a product?
 Open the **Scan** tab and tap **Scan barcode** to use your camera, or paste an ingredient list into the text box and tap **Analyze**. You'll get a letter grade, a breakdown of each ingredient, and warnings for carcinogens, forever chemicals (PFAS), and likely pesticide residues.

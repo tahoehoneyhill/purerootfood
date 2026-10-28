@@ -45,7 +45,7 @@ The app may request permission to access your device camera for barcode scanning
 
 ## Payments
 
-PureRootFood is completely free. There are no in-app purchases, subscriptions, or payments of any kind, so we never process or receive any payment information.
+PureRootFood is offered through an auto-renewable subscription. All purchases are processed by Apple through the App Store, so we never see, process, or store your payment card or billing details. Apple tells the app only whether your subscription is active. Your purchase and billing information is governed by Apple's privacy policy.
 
 ## Children
 
